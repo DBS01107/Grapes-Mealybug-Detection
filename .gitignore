@@ -1,0 +1,15 @@
+# Ignore data folder to avoid pushing large files
+data/
+
+# Ignore Python cache and system files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
+
+# Ignore model binaries if large (optional)
+models/
+
+# Ignore Jupyter notebook checkpoints (if any)
+.ipynb_checkpoints/
