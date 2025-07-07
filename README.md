@@ -9,7 +9,7 @@ Automated detection of mealybug infestations on grape leaves using deep feature 
 - Developed an automated pipeline to detect mealybug infestations in grape leaves using deep feature extraction and unsupervised clustering.
 - Preprocessed images with resizing, denoising, and HSV-based segmentation to isolate leaf regions.
 - Extracted features via ResNet50, clustered images using KMeans + t-SNE, and applied pseudo-labeling to train a lightweight classifier.
-- Achieved 94% validation accuracy.
+- Achieved 87% validation accuracy.
 - Deployed a Streamlit app for real-time, user-friendly predictions with confidence scores.
 
 ---
